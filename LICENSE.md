@@ -1,5 +1,5 @@
-#GNU AFFERO GENERAL PUBLIC LICENSE
-##Version 3, 19 November 2007
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
 Copyright (C) 2023 Jack Smith Insulander
 
