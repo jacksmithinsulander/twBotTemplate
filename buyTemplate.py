@@ -30,7 +30,7 @@ def hook():
 
     symbol = "BTC/USD:BTC"
     #making five percent sized buy in bag
-    size = (bitty_balance * 0.05) * ask_price
+    size = ((bitty_balance * 0.05) * ask_price) * 25
     #putting the buyorder a bit above the askprice to make sure it gets filled
     price = ask_price * 1.01
 
