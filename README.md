@@ -7,7 +7,7 @@
 <h2>Exchange</h2>
 <h2>Setup</h2>
 <h2>TradingView</h2>
-<h2><a href="#xmrWallet"></a>Pay me</h2>
+<h2><a href="#xmrWallet">here</a>Pay me</h2>
 
 
 
