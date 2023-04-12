@@ -65,7 +65,7 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <p>This will build the bot for you, so after this it should be ready for the final step</p>
 <h2>TradingView</h2>
 <p>I'll keep this section short, since it should be easy to figure out, but you are going to add an alert to the indicator you want to trade, and then go to the tab <bold>Notifications</bold></p>
-<p>Then you'll fill this field with the domain that you chose in the <bold>localtunnel.service</bold> config</p>
+<p>Then you'll fill this field with the domain that you chose in the <strong>localtunnel.service</strong> config</p>
 <img src="webhookTW.png">
 <h2>Pay me</h2>
 <p>Donations are gladly appreciated, especially since some people will use this work in order to make them selves money. You can pay me using XMR</p>
@@ -77,5 +77,5 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 	<li>Spell checks, I am terrible at spelling</li>
 	<li>Add som alternatives to taking the trades on bybit, using for example web3.py and taking the trades on a dex like GMX</li>
 	<li>Optimize code, making some options more customizeable</li>
-	<li>Improving the Makefile</li>
+	<li>Improving the <strong>Makefile</strong></li>
 </ul>
