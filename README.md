@@ -42,10 +42,10 @@ The only reason I am using bybit is because it plays well with <a href="https://
 		cd twBotTemplate/
 	</code>
 </pre>
-<p>Make sure you pay attention here. The first thing you want to do is to extract your API key from the exchange, then put it inside a file in this directory named <strong>.env</strpng> <br>
-The file should follow this structure: </br>
-KEY=yourkeyhere <br>
-SECRET=yoursecrethere<br>
+<p>Make sure you pay attention here. The first thing you want to do is to extract your API key from the exchange, then put it inside a file in this directory named <strong>.env</strong> <br>
+The file should follow this structure: </br><br>
+<em>KEY=yourkeyhere </br>
+SECRET=yoursecrethere</br></br></em>
 Right after you do this you'll want to run this command:</p>
 <pre>
 	<code>
