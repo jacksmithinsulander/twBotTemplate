@@ -16,7 +16,7 @@ NPM_RMV			:= npm uninstall
 PIP_PKGS		:= ccxt flask python-dotenv 
 NODE_PKGS		:= localtunnel
 
-RBT				:= echo "rebooting now, ssh back in 5 minutes :)" $$ sudo reboot
+RBT				:= echo "rebooting now, ssh back in 5 minutes :)" && sudo reboot
 
 ROOT_CP 		:= sudo cp
 
@@ -41,9 +41,8 @@ clean:
 	$(RMV) $(SERVICE_DIR)/localtunnel.service
 	$(RMV) $(SERVICE_DIR)/trading-bot.service
 	$(SYSTEMD_STOP) localtunnel 
-	$(SYSTEMD_DISABLE) localtunnnel
 	$(SYSTEMD_STOP) trading-bot
-	$(SYSTEMD_DISABLE) trading-bot
+	$(SYSTEMD_RELOAD)
 
 reload:
 	$(SYSTEMD_RELOAD)
