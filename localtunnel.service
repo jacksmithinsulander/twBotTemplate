@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=debian
-ExecStart=/usr/local/bin/lt --port #yourporthere --subdomainm #yoursubdomainhere
+ExecStart=/usr/local/bin/lt --port #yourporthere --subdomain #yoursubdomainhere
 Restart=always
 
 [Install]
