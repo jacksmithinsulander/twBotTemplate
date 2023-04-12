@@ -66,6 +66,6 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <h2>TradingView</h2>
 <p>I'll keep this section short, since it should be easy to figure out, but you are going to add an alert to the indicator you want to trade, and then go to the tab <bold>Notifications</bold></p>
 <p>Then you'll fill this field with the domain that you chose in the <bold>localtunnel.service</bold> config</p>
-<img src="webhookTW.png"></img>
+<img src="webhookTW.png">
 <h2>Pay me</h2>
 
