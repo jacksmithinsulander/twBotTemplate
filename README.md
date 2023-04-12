@@ -30,9 +30,16 @@ The only reason I am using bybit is because it plays well with <a href="https://
 <p>The first thing you need to do is to install some dependencies:</p>
 <pre>
 	<code>
-		sudo apt update&gt
+		sudo apt update
 		sudo apt upgrade
 		sudo apt install git make python3 pip3 npm
+	</code>
+</pre>
+<p>After this, you can git clone this repository and cd into it:</p>
+<pre>
+	<code>
+		git clone https://github.com/jacksmithinsulander/twBotTemplate.git
+		cd twBotTemplate/
 	</code>
 </pre>
 <h2>TradingView</h2>
