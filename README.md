@@ -68,7 +68,7 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <p>Then you'll fill this field with the domain that you chose in the <bold>localtunnel.service</bold> config</p>
 <img src="webhookTW.png">
 <h2>Pay me</h2>
-<p>Donations are gladly appreciated, especially since some people will use this work in order to make them selves money. You can pay me using XMR</p>i
+<p>Donations are gladly appreciated, especially since some people will use this work in order to make them selves money. You can pay me using XMR</p>
 <p>XMR:44xYe6B6E14MbkuTP8M3iHZ1BdeU9EQXt8m3o33ku3Cja3quQgDtwpwEBhzbCZgQftL7DKbTx45gWGRJfLQj4ayiGrBLsSC</p>
 <img src="xmrQR.png">
 <h2>Contribute</h2>
