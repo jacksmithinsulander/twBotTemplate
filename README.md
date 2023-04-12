@@ -42,7 +42,7 @@ The only reason I am using bybit is because it plays well with <a href="https://
 		cd twBotTemplate/
 	</code>
 </pre>
-<p>Make sure you pay attention here. The first thing you want to do is to extract your API key from the exchange, then put it inside a file in this directory named <strong>.env</strong> <br>
+<p>Make sure you pay attention here. The first thing you want to do is to extract your API key from the exchange, then put it inside a file in this directory named <strong>.env</strong>
 The file should follow this structure: </br><br>
 <em>KEY=yourkeyhere </br>
 SECRET=yoursecrethere</br></br></em>
@@ -52,10 +52,10 @@ Right after you do this you'll want to run this command:</p>
 		cat .gitignore
 	</code>
 </pre>
-<p>Make sure that this returns ".env", especially if you're forking this repo to your own gitserver. If it doesnt return ".env" you have a high risk of being hacked if you git push your dirrectory,<br>
+<p>Make sure that this returns ".env", especially if you're forking this repo to your own gitserver. If it doesnt return ".env" you have a high risk of being hacked if you git push your dirrectory,
  which is your fault and your fault only</p>
-<p>After this you want to edit the <strong>localtunnel.service</strong>. You will be editing your port to match whats in the <strong>buyTemplate.py</strong> and choose a custom domain that will be what your </br> 
-webhook alert is calling once TradingView indicator gets hit. This domain can be whatever.</p>
+<p>After this you want to edit the <strong>localtunnel.service</strong>. You will be editing your port to match whats in the <strong>buyTemplate.py</strong> and choose a custom domain that will be what your
+webhook alert is calling once TradingView indicator gets hit. This domain can be whatever. You'll also want to edit the buyTemplate.py with  more correct params for your specific usecase, such as specifying exchange, pair, bagsizing etc</p>
 <p>After you're done with this, you're going to want to save the file, and then, inside of the directory run this command:</p>
 <pre>
 	<code>
@@ -65,7 +65,7 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <p>This will build the bot for you, so after this it should be ready for the final step</p>
 <h2>TradingView</h2>
 <p>I'll keep this section short, since it should be easy to figure out, but you are going to add an alert to the indicator you want to trade, and then go to the tab <bold>Notifications</bold></p>
-<p>Then you'll fill this field with the domain that you chose in the <strong>localtunnel.service</strong> config</p>
+<p>Then you'll fill this field with the domain that you chose in the <strong>localtunnel.service</strong> config. To be really clear; the format will be https://yourchosensubdomainhere.loca.lt/webhookcallback</p>
 <img src="webhookTW.png">
 <h2>Pay me</h2>
 <p>Donations are gladly appreciated, especially since some people will use this work in order to make them selves money. You can pay me using XMR</p>
