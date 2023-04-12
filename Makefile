@@ -6,6 +6,8 @@ SYSTEMD_START	:= sudo systemctl start
 SYSTEMD_RELOAD	:= sudo systemctl daemon-reload
 
 RMV				:= rm -rf
+PIP_RMV			:= pip3 uninstall -y
+NPM_RMV			:= npm uninstall
 
 PIP_PKGS		:= ccxt flask python-dotenv 
 NODE_PKGS		:= localtunnel
@@ -15,6 +17,9 @@ install:
 	$(RMV) ${HOME}/twBotTemplate/webhookTW.png
 	$(RMV) ${HOME}/twBotTemplate/LICENSE.md
 	$(RMV) ${HOME}/twBotTemplate/README.md
+	$(PIP3) $(PIP_PKGS)
+	$(NPM) $(NODE_PKGS)
 
-
-
+clean:
+	$(PIP_RMV) $(PIP_PKGS)
+	$(NPM_RMV) $(NODE_PKGS)
