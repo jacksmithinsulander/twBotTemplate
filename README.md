@@ -59,12 +59,13 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <p>After you're done with this, you're going to want to save the file, and then, inside of the directory run this command:</p>
 <pre>
 	<code>
-		make clean install
+		sudo make clean install
 	</code>
 </pre>
-<p>This will build the bot for you, so after this it should be readdy for the final step</p>
+<p>This will build the bot for you, so after this it should be ready for the final step</p>
 <h2>TradingView</h2>
+<p>I'll keep this section short, since it should be easy to figure out, but you are going to add an alert to the indicator you want to trade, and then go to the tab <bold>Notifications</bold></p>
+<p>Then you'll fill this field with the domain that you chose in the <bold>localtunnel.service</bold> config</p>
+<img src="webhookTW.png"></img>
 <h2>Pay me</h2>
-
-
 
