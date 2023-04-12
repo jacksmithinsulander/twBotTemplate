@@ -42,6 +42,27 @@ The only reason I am using bybit is because it plays well with <a href="https://
 		cd twBotTemplate/
 	</code>
 </pre>
+<p>Make sure you pay attention here. The first thing you want to do is to extract your API key from the exchange, then put it inside a file in this directory named <bold>.env</bold> <br>
+The file should follow this structure: </br>
+KEY=yourkeyhere <br>
+SECRET=yoursecrethere<br>
+Right after you do this you'll want to run this command:</p>
+<pre>
+	<code>
+		cat .gitignore
+	</code>
+</pre>
+<p>Make sure that this returns ".env", especially if you're forking this repo to your own gitserver. If it doesnt return ".env" you have a high risk of being hacked if you git push your dirrectory,<br>
+ which is your fault and your fault only</p>
+<p>After this you want to edit the <bold>localtunnel.service</bold>. You will be editing your port to match whats in the <bol>buyTemplate.py</bold> and choose a custom domain that will be what your </br> 
+webhook alert is calling once TradingView indicator gets hit. This domain can be whatever.</p>
+<p>After you're done with this, you're going to want to save the file, and then, inside of the directory run this command:</p>
+<pre>
+	<code>
+		make clean install
+	</code>
+</pre>
+<p>This will build the bot for you, so after this it should be readdy for the final step</p>
 <h2>TradingView</h2>
 <h2>Pay me</h2>
 
