@@ -1,0 +1,11 @@
+[Unit]
+Description=Trading Bot
+
+[Service]
+User=debian
+Environment=PYTHONPATH=/home/debian/.local/lib/python3.9/site-packages
+ExecStart=/usr/bin/python3 /home/debian/twBotTemplate/buyTemplate.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

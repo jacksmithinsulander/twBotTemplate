@@ -1,0 +1,11 @@
+[Unit]
+Description=LocalTunnel
+After=network.target
+
+[Service]
+User=debian
+ExecStart=/usr/local/bin/lt --port #yourporthere --subdomainm #yoursubdomainhere
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
