@@ -8,6 +8,8 @@ SYSTEMD_STOP	:= sudo systemctl stop
 SYSTEMD_RELOAD	:= sudo systemctl daemon-reload
 SYSTEMD_RESTART := sudo systemctl restart
 SERVICE_DIR		:= /etc/systemd/system/
+FETCH_PUBLICIP	:= curl ifconfig.me >> publicIP.txt
+CREATE_DOTENV	:= touch /home/debian/twBotTemplate/.env
 
 RMV				:= sudo rm -rf
 PIP_RMV			:= pip3 uninstall -y
@@ -33,6 +35,8 @@ install:
 	$(SYSTEMD_ENABLE) localtunnel
 	$(SYSTEMD_START) trading-bot
 	$(SYSTEMD_ENABLE) trading-bot
+	$(FETCH_PUBLICIP)
+	$(CREATE_DOTENV)
 	$(RBT)
 
 clean:
