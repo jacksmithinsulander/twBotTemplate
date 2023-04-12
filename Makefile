@@ -38,8 +38,8 @@ install:
 clean:
 	$(PIP_RMV) $(PIP_PKGS)
 	$(NPM_RMV) $(NODE_PKGS)
-	$(RMV) $(SERVICE_DIR)/localtunnel.service
-	$(RMV) $(SERVICE_DIR)/trading-bot.service
+	$(RMV) $(SERVICE_DIR)localtunnel.service
+	$(RMV) $(SERVICE_DIR)trading-bot.service
 	$(SYSTEMD_STOP) localtunnel 
 	$(SYSTEMD_STOP) trading-bot
 	$(SYSTEMD_RELOAD)
