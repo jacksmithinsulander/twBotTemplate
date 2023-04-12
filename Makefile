@@ -27,8 +27,8 @@ install:
 	$(RMV) ${HOME}/twBotTemplate/README.md
 	$(PIP3) $(PIP_PKGS)
 	$(NPM) $(NODE_PKGS)
-	$(ROOT_CP) ${HOME}/twBotTemplate/localtunnel.service $(SERVICE_DIR) 
-	$(ROOT_CP) ${HOME}/twBotTemplate/trading-bot.service $(SERVICE_DIR)
+	$(ROOT_CP) /home/debian/twBotTemplate/localtunnel.service $(SERVICE_DIR) 
+	$(ROOT_CP) /home/debian/twBotTemplate/trading-bot.service $(SERVICE_DIR)
 	$(SYSTEMD_START) localtunnel
 	$(SYSTEMD_ENABLE) localtunnel
 	$(SYSTEMD_START) trading-bot
