@@ -30,9 +30,9 @@ The only reason I am using bybit is because it plays well with <a href="https://
 <p>The first thing you need to do is to install some dependencies:</p>
 <pre>
 	<code>
-		&lt;sudo apt update&gt;
-		&lt;sudo apt upgrade&gt;
-		&lt;sudo apt install git make python3 pip3 npm&gt;
+		sudo apt update&gt
+		sudo apt upgrade
+		sudo apt install git make python3 pip3 npm
 	</code>
 </pre>
 <h2>TradingView</h2>
