@@ -32,7 +32,7 @@ The only reason I am using bybit is because it plays well with <a href="https://
 	<code>
 		sudo apt update
 		sudo apt upgrade
-		sudo apt install git make python3 pip3 npm
+		sudo apt install git make python3 pip npm
 	</code>
 </pre>
 <p>After this, you can git clone this repository and cd into it:</p>
