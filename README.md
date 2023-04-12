@@ -68,4 +68,14 @@ webhook alert is calling once TradingView indicator gets hit. This domain can be
 <p>Then you'll fill this field with the domain that you chose in the <bold>localtunnel.service</bold> config</p>
 <img src="webhookTW.png">
 <h2>Pay me</h2>
-
+<p>Donations are gladly appreciated, especially since some people will use this work in order to make them selves money. You can pay me using XMR</p>i
+<p>XMR:44xYe6B6E14MbkuTP8M3iHZ1BdeU9EQXt8m3o33ku3Cja3quQgDtwpwEBhzbCZgQftL7DKbTx45gWGRJfLQj4ayiGrBLsSC</p>
+<img src="xmrQR.png">
+<h2>Contribute</h2>
+<p>I would be glad to recieve some high quality pull requests on this repository. Here are some ideas that I would be glad to get some help on: </p>
+<ul>
+	<li>Spell checks, I am terrible at spelling</li>
+	<li>Add som alternatives to taking the trades on bybit, using for example web3.py and taking the trades on a dex like GMX</li>
+	<li>Optimize code, making some options more customizeable</li>
+	<li>Improving the Makefile</li>
+</ul>
