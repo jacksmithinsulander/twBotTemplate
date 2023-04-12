@@ -28,11 +28,13 @@ The only reason I am using bybit is because it plays well with <a href="https://
 <h2>Setup</h2>
 <p>This setup is assuming you've just gotten your Privex server and just SSH'ed into it using a tool like PuTTY:</p>
 <p>The first thing you need to do is to install some dependencies:</p>
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install git make python3 pip3 npm
-```
+<pre>
+	<code>
+		&lt;sudo apt update&gt;
+		&lt;sudo apt upgrade&gt;
+		&lt;sudo apt install git make python3 pip3 npm&gt;
+	</code>
+</pre>
 <h2>TradingView</h2>
 <h2>Pay me</h2>
 
